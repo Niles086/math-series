@@ -26,3 +26,9 @@ def sum_series(n, first=0, second=1):
     while len(series) < n + 1:
         series.append(series[-1] + series[-2])
     return series[n]
+
+
+result =fibonacci(5) 
+print(result)
+custom_result = sum_series(5, 3, 4)
+print(custom_result)

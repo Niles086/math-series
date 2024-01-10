@@ -37,8 +37,8 @@ class TestSeriesFunctions(unittest.TestCase):
         self.assertEqual(series.sum_series(0, 3, 4), 3)
         self.assertEqual(series.sum_series(1, 3, 4), 4)
         self.assertEqual(series.sum_series(2, 3, 4), 7)
-        self.assertEqual(series.sum_series(5, 3, 4), 26)
-        self.assertEqual(series.sum_series(8, 3, 4), 104)
+        self.assertEqual(series.sum_series(5, 3, 4), 29)
+        self.assertEqual(series.sum_series(8, 3, 4), 123)
 
 if __name__ == '__main__':
     unittest.main()
